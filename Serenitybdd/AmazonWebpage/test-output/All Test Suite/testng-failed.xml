@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/arjunshekar_g/Downloads/AmazonWebpage/AmazonWebpage(failed)">
+    <classes>
+      <class name="Tests.OtherTest">
+        <methods>
+          <include name="LangTest"/>
+          <include name="setup"/>
+          <include name="CatergoryTest"/>
+        </methods>
+      </class> <!-- Tests.OtherTest -->
+      <class name="Tests.TodaysDealTest">
+        <methods>
+          <include name="Todaysdeal"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.TodaysDealTest -->
+    </classes>
+  </test> <!-- C:/Users/arjunshekar_g/Downloads/AmazonWebpage/AmazonWebpage(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

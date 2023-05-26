@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/arjunshekar_g/Downloads/AmazonWebpage/AmazonWebpage">
+        <classes>
+<!--            <class name="Tests.AddressTest">-->
+<!--                <methods>-->
+<!--                    <include name="SetAddress"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Tests.BusAccTest">-->
+<!--                <methods>-->
+<!--                    <include name="BusAcc"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="Tests.LoginTest">
+                <methods>
+                    <include name="LoginAmazon"/>
+                    <include name="SignUp"/>
+                    <include name="Cart"/>
+                </methods>
+            </class>
+            <class name="Tests.OtherTest">
+                <methods>
+                    <include name="LangTest"/>
+                    <include name="CatergoryTest"/>
+                </methods>
+            </class>
+            <class name="Tests.TodaysDealTest">
+                <methods>
+                    <include name="Todaysdeal"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
